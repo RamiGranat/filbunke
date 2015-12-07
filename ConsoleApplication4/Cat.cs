@@ -14,5 +14,6 @@ namespace ConsoleApplication4
         {
             Console.WriteLine($"Djur: {djur}, Name: {Name}");
         }
+        public override string ToString() => $"Djur: {djur} " + base.ToString();
     }
 }

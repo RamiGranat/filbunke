@@ -9,10 +9,10 @@ namespace ConsoleApplication4
     class Dog : Animal
     {
         private string djur = "hund";
-        private string Djur { get; set; }
         public override void PrintInfo()
         {
-            Console.WriteLine($"Djur: {Djur}, Name: {Name}");
+            Console.WriteLine($"Djur: {djur}, Name: {Name}");
         }
+        public override string ToString() => $"Djur: {djur} " + base.ToString();
     }
 }

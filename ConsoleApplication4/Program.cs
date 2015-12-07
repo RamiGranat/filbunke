@@ -10,6 +10,13 @@ namespace ConsoleApplication4
     {
         static void Main(string[] args)
         {
+            Animal cat = new Cat() { Name = "Kajsa", Age = 5 };
+            cat.PrintInfo();
+            Console.WriteLine(cat);
+            Animal dog = new Dog() { Name = "Doge", Age = 100 };
+            dog.PrintInfo();
+            Console.WriteLine(dog);
+            Console.ReadLine();
         }
     }
 }
