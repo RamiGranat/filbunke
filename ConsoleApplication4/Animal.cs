@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication4
 {
-    class Bil : Fordon
+    abstract class Animal
     {
-        public override void Print()
-        {
-            Console.WriteLine("Bil");
-        }
+        public string Name { get; set; }
+        public abstract void PrintInfo();
     }
 }

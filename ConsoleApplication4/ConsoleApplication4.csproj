@@ -44,10 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstractus\Vehicle.cs" />
-    <Compile Include="Bil.cs" />
+    <Compile Include="Cat.cs" />
     <Compile Include="Cool.cs" />
-    <Compile Include="Cyckel.cs" />
-    <Compile Include="Fordon.cs" />
+    <Compile Include="Dog.cs" />
+    <Compile Include="Animal.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

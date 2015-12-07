@@ -6,11 +6,13 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication4
 {
-    class Fordon
+    class Cat : Animal
     {
-        public virtual void Print()
+        private string djur = "katt";
+        
+        public override void PrintInfo()
         {
-            Console.WriteLine("Fordon");
+            Console.WriteLine($"Djur: {djur}, Name: {Name}");
         }
     }
 }

@@ -10,9 +10,6 @@ namespace ConsoleApplication4
     {
         static void Main(string[] args)
         {
-            Vehicle vehicle = new Car();
-            vehicle.Print();
-            Console.ReadLine();
         }
     }
 }
