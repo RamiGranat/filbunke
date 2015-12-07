@@ -6,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication4
 {
-    class Program
+    class Bil : Fordon
     {
-        static void Main(string[] args)
+        public override void Print()
         {
-            Vehicle vehicle = new Car();
-            vehicle.Print();
-            Console.ReadLine();
+            Console.WriteLine("Bil");
         }
     }
 }
