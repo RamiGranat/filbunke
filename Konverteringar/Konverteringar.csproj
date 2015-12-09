@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8B28FDCB-179D-4B0A-AE27-BA32836EC81A}</ProjectGuid>
+    <ProjectGuid>{BDD7DB20-9058-4FEC-B084-9BE6FD6FAD0C}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ConsoleApplication4</RootNamespace>
-    <AssemblyName>ConsoleApplication4</AssemblyName>
+    <RootNamespace>Konverteringar</RootNamespace>
+    <AssemblyName>Konverteringar</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,14 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Abstractus\Vehicle.cs" />
-    <Compile Include="AirPlane.cs" />
-    <Compile Include="Bus.cs" />
-    <Compile Include="Cat.cs" />
-    <Compile Include="Cool.cs" />
-    <Compile Include="Dog.cs" />
-    <Compile Include="Animal.cs" />
-    <Compile Include="Person.cs" />
+    <Compile Include="Fordon.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

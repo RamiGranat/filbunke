@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication4", "ConsoleApplication4\ConsoleApplication4.csproj", "{8B28FDCB-179D-4B0A-AE27-BA32836EC81A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Konverteringar", "Konverteringar\Konverteringar.csproj", "{BDD7DB20-9058-4FEC-B084-9BE6FD6FAD0C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{8B28FDCB-179D-4B0A-AE27-BA32836EC81A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B28FDCB-179D-4B0A-AE27-BA32836EC81A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B28FDCB-179D-4B0A-AE27-BA32836EC81A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDD7DB20-9058-4FEC-B084-9BE6FD6FAD0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDD7DB20-9058-4FEC-B084-9BE6FD6FAD0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDD7DB20-9058-4FEC-B084-9BE6FD6FAD0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDD7DB20-9058-4FEC-B084-9BE6FD6FAD0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
