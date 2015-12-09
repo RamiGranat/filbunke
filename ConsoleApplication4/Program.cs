@@ -40,6 +40,7 @@ namespace ConsoleApplication4
             planeList.Sort();
             foreach (var plane in planeList)
             {
+
                 Console.WriteLine(plane);
             }
         }
