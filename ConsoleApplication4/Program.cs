@@ -29,7 +29,29 @@ namespace ConsoleApplication4
             //ClearList();
             //ArraySyntaxIntisar();
             //IndexOfMethod();
+            //AirPlaneList();
 
+            int minNumber;
+            List<Fruit> fruitList = new List<Fruit>();
+            for (int i = 0; i < 3; i++)
+            {
+            Console.WriteLine("Write a name for your fruit");
+                var name = Console.ReadLine();
+                Console.WriteLine("Write the number of your fruit in storage");
+                var antal = int.Parse(Console.ReadLine());
+            fruitList.Add(new Fruit(name, antal));
+            }
+            Console.WriteLine("Write a minimum number to print");
+            minNumber = int.Parse(Console.ReadLine());
+            for (int i = 0; i < fruitList.Count; i++)
+            {
+                if (minNumber <= fruitList[i].Number)
+                    Console.WriteLine(fruitList[i]);
+            }
+        }
+
+        private static void AirPlaneList()
+        {
             AirPlane airPlane1 = new AirPlane(54, 3);
             AirPlane airPlane2 = new AirPlane(32, 2);
             AirPlane airPlane3 = new AirPlane(4, 1);
